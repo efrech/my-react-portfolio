@@ -18,6 +18,7 @@
 }
 
 /* menu styling*/
+
 .navbar {
   background-color: var(--navbar-background);
   color: var(--menu-font-color);
@@ -28,6 +29,8 @@
 
 .nav-list {
   list-style-type: none;
+  display: inline-block;
+  padding: 20px 10px;
 }
 
 .nav-list .list-item {
@@ -83,14 +86,10 @@
 .bio-image {
   width: 70%;
   justify-self: flex-end;
-  background-color: white;
-  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   margin-bottom: 25px;
-}
-/* capitalize first letter */
-.flex-right p::first-letter {
-    font-size: 250%;
-    color: var(--menu-font-color)
+  border-radius: 30%;
+  padding: 10px 10px;
 }
 
 /* work showcase */
@@ -100,69 +99,43 @@
   font-family: fantasy;
 }
 
-.project-image {
-  background-image: url("./assets/images/project1.png");
-  background-size: cover;
-  height: 320px;
-  background-repeat: no-repeat;
+.project-img {
+  height: 50%;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 10px;
   text-decoration: none;
 }
 
-.project-image1 {
-  background-image: url("./assets/images/codequiz.png");
-  background-size: cover;
-  height: 200px;
-  justify-content: space-between;
-  background-repeat: no-repeat;
-  text-decoration: none;
+.project-description {
+  font-size: small;
 }
 
-.project-image2 {
-  background-image: url("./assets/images/weatherdashboard.png");
-  height: 200px;
-  justify-content: space-between;
-  background-repeat: no-repeat;
-  text-decoration: none;
-}
-
-.project-image3 {
-  background-image: url("./assets/images/header-background.png");
-  height: 200px;
-  justify-content: space-between;
-  background-repeat: no-repeat;
-  text-decoration: none;
-}
-
-.project-image4 {
-  background-image: url("./assets/images/bannerhome.png");
-  height: 200px;
-  justify-content: space-between;
-  background-repeat: no-repeat;
-  text-decoration: none;
-}
-.project-image:hover,  .project-image1:hover, .project-image2:hover, .project-image3:hover, .project-image4:hover    {
+.content:hover {
   opacity: 0.90;
-  color: var(--yellow-color);
-  border-color: var(--yellow-color);;
+  color: gray;
 }
 
 h3 {
   margin-bottom: 5px;
 }
-
-.project-box {
+.card {
   align-self: flex-end;
   background-color: var(--project-border-color);
   padding: 10px;
   margin-bottom: 10px;
+  text-decoration: none;
+  border: 3px solid var(--yellow-color);;
 }
 
-.secondary-projects {
-  display: flex;
-  flex-wrap: wrap;
-  flex: 50%;
-  border: 5px solid var(--project-border-color);
+.content {
+  padding-right: 1rem;
+  text-align: center;
+  font-size: 18px;
+  color: var(--menu-font-color);
+  font-weight: bold;
 }
+
 /* contact me submenu */
 .contact-item {
   justify-content: space-evenly;
@@ -186,15 +159,15 @@ footer {
   padding: 20px;
 }
 
-.fa {
+.icon {
   color: #51414F;
   padding: 20px;
-  font-size: 20px;
+  font-size: 35px;
   width: 30px;
   text-align: center;
   text-decoration: none;
 }
-.fa:hover {
+.icon:hover {
   opacity: 0.7;
 }
 
