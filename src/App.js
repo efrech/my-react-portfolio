@@ -9,9 +9,11 @@ import Portfolio from './pages/Portfolio';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
+const routerBaseName = process.env.PUBLIC_URL;
+
 function App() {
   return (
-    <Router>
+    <Router basename={routerBaseName}>
         <div className="flex-column justify-flex-start min-100-vh">
           <Navigation />
           <Header />
