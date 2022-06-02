@@ -6,7 +6,7 @@ function About() {
         <section>
             <div class="flex-container">
                 <div class="flex-left">
-                    
+                    <AboutImage />
                 </div>
                 <div class="flex-right">
                     <p>I'm Evelyn Frech, full stack web developer 
