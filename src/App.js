@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import About from './pages/About';
 import Navigation from './components/Navigation';
+import Contact from './pages/Contact';
+import Portfolio from './pages/Portfolio';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -20,11 +22,14 @@ function App() {
                 path="/" 
                 element={<About />} 
               />
-              {/*  */}
-              {/* <Route 
-                path="/thoughts/:thoughtId" 
-                element={<SingleThought />} 
-              /> */}
+              <Route 
+                path="/contact" 
+                element={<Contact />} 
+              />
+                <Route 
+                path="/portfolio" 
+                element={<Portfolio />} 
+              />
             </Routes>
           </div>
           <Footer />
