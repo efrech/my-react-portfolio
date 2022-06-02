@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Header() {   
+function Header() {
     return (
-<div></div>
+        <div class="banner-image"></div>
     )
 }
 
