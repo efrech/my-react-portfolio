@@ -5,11 +5,11 @@ function About() {
     return (
         <section>
             <div class="flex-container">
-                <div class="flex-left" id="about">
+                <div class="flex-left">
                     <img class="bio-image" src={BioPic} alt="bio picture"/>
                 </div>
                 <div class="flex-right">
-                    <p>I'm Evelyn Frech. Christian. Data driven marketer. Currently learning the amazing world of programming. Languages learned so far: HTML, CSS and Javascript.
+                    <p>I'm Evelyn Frech, full stack web developer 
                         <br />
                         In my free time I like to spend time with my family, read books (currently reading Dune by Frank Herbert) and enjoy the sun during an afternoon walk.</p>
                 </div>
