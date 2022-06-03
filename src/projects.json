@@ -3,36 +3,41 @@
         "name": "Project 1 - Wise Planning",
         "image": "./project1.png",
         "github": "https://github.com/Akuruu/Wise_Planning_Project",
+        "deploy": "https://akuruu.github.io/Wise_Planning_Project/",
         "description": "The idea for this website is to create a place to help users find stock market information from difference sources just with one search.",
         "skills": "HTML | CSS | Javascript | API | Bulma"
     },
 
     {
         "name": "Project 2 - Find my car",
-        "image": "./virginia-marinova-bm9r-_MdUgY-unsplash.jpg",
+        "image": "./project2.png",
         "github": "https://github.com/fusionneo/findmycar",
+        "deploy": "https://e-frech-find-my-car.herokuapp.com",
         "description": "Find My Car is the web application that will provide you with personalized car recommendations based on your preferences. Now that you have chosen your car, you may want to know the cars safety ratings or if the car has had any recalls from the manufacturer. Find My Car will take care of both of these for you at the click of a button.",
         "skills": "Javascript | Handlebars | CSS | API | Express.js |MySQL"
     },
     {
         "name": "Note Taker",
-        "image": "./virginia-marinova-bm9r-_MdUgY-unsplash.jpg",
+        "image": "./note-taker.png",
         "github": " https://github.com/efrech/note-taker",
+        "deploy": "https://efrech-note-taker.herokuapp.com/",
         "description": "This application can be used to write, save and delete notes. This app uses an Express.js back end and saves and retrieves note data from a JSON file.",
         "skills": "Javascript | CSS | HTML | Express.js | Local Storage"
     },
     {
         "name": "Team Profile Generator",
-        "image": "./virginia-marinova-bm9r-_MdUgY-unsplash.jpg",
+        "image": "./profile-generator.png",
         "github": "https://github.com/efrech/team-profile-generator",
+        "deploy": "https://efrech-note-taker.herokuapp.com/",
         "description": "Node.js command-line application that takes in information about employees on a software engineering team & generates a webpage with that information",
         "skills": "Javascript | Node.js | CSS"
     },
     {
-        "name": "Tech Blog",
-        "image": "./virginia-marinova-bm9r-_MdUgY-unsplash.jpg",
-        "github": "https://github.com/efrech/tech-blog",
-        "description": "First stop for developers looking to publish their blog posts and comment on other developers’ posts as well. This app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.",
-        "skills": "Javascript | CSS | Handlebars | Express.js"
+        "name": "Weather Dashboard",
+        "image": "./weather.png",
+        "github": "https://github.com/efrech/weather-dashboard",
+        "deploy": "https://efrech.github.io/weather-dashboard/",
+        "description": "Third-party API implementation. This weather dashboard runs in the browser and feature dynamically updated HTML & CSS with JavaScript.",
+        "skills": "Javascript | CSS | HTML | Local Storage"
     }
 ]

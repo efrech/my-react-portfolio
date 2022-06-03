@@ -7,11 +7,26 @@ function Contact() {
                 <div class="flex-left" id="contact">
                     CONTACT ME
                 </div>
-                <div class="flex-right contact-item">
-                    <a href="4078000000">407.800.0000</a>
-                    <a href="mailto: evelynmariafrech@gmail.com">email me</a>
-                    <a href="https://github.com/efrech">GitHub</a>
-                    <a href="/asset/Resume Evelyn_Frech.pdf">Download Resume</a>
+                <div className="flex-right contact-form">
+                    <form>
+                        <ul>
+                            <li className='half'>
+                                <input className='contact-input' type='text' name='name' placeholder='Name' required />
+                            </li>
+                            <li className='half'>
+                                <input className='contact-input' type='email' name='email' placeholder='Email' required />
+                            </li>
+                            <li>
+                                <input className='contact-input' placeholder='Subject' type='text' name='subject' required />
+                            </li>
+                            <li>
+                                <textarea placeholder='Message' name='message' required></textarea>
+                            </li>
+                            <li>
+                                <input type='submit' className='flat-button' value='SEND'/>
+                            </li>
+                        </ul>
+                    </form>
                 </div>
             </div>
         </section >

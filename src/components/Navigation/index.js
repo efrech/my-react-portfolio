@@ -1,8 +1,7 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import LogoName from '../../assets/images/E.png';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-// import {faBriefcase, faEnvelope, faFileCircleCheck, faHome} from '@fortawesome/free-solid-svg-icons';
+
 
 function Navigation() {   
     return (

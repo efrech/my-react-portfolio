@@ -3,19 +3,23 @@ import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
+import { faRocket } from '@fortawesome/free-solid-svg-icons';
 
 function Project(props) {
   return (
     <div className="card">
-      <div className="project-img">
-        <img alt={props.name} src={props.image} />
+      <div>
+        <img className="project-img" alt={props.name} src={props.image} />
       </div>
       <div className="content">
-            <h3 className="project-title">{props.name}</h3>
+            <h4 className="project-title">{props.name}</h4>
             <p className="project-description">{props.description}</p>
             <div className="project-icons">
-              <a className='icon' href="https://www.linkedin.com/evelyn.frech">
+              <a className='icon' href={props.github}>
                 <FontAwesomeIcon icon={faGithubSquare} />
+              </a>
+              <a className='icon' href={props.deploy}>
+                <FontAwesomeIcon icon={faRocket} />
               </a>
             </div>
             {props.skills}
